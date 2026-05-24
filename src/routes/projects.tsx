@@ -366,7 +366,7 @@ function ProjectsPage() {
     <div className="flex flex-col">
       <div className="border-b border-zinc-800 px-6 py-4 flex items-center justify-between shrink-0">
         <div>
-          <h1 className="text-[15px] font-semibold text-zinc-100 leading-none">{t.projects.title}</h1>
+          <h1 className="text-2xl font-bold">{t.projects.title}</h1>
           <p className="text-xs text-zinc-500 mt-1">Zarządzanie projektami</p>
         </div>
         <div className="flex items-center gap-2">

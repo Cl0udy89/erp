@@ -148,8 +148,8 @@ function TimesheetsPage() {
     <div className="flex flex-col">
       <div className="border-b border-zinc-800 px-6 py-4 flex items-center justify-between shrink-0">
         <div>
-          <h1 className="text-[15px] font-semibold text-zinc-100 leading-none">{t.timesheets.title}</h1>
-          <p className="text-xs text-zinc-500 mt-1">Miesięczne zestawienia</p>
+          <h1 className="text-2xl font-bold">{t.timesheets.title}</h1>
+          <p className="text-sm text-muted-foreground mt-1">{t.timesheets.monthlyStatements ?? "Miesięczne zestawienia"}</p>
         </div>
       </div>
       <div className="p-6 space-y-6">
@@ -297,11 +297,11 @@ function TimesheetsPage() {
                         </div>
                         <div className="flex items-center gap-3">
                           {ts.status === "approved" ? (
-                            <Badge className="border-green-300 bg-green-50 text-green-700">
+                            <Badge className="border-green-300 bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300">
                               <CheckCircle className="mr-1 size-3" /> {t.timesheets.approved}
                             </Badge>
                           ) : (
-                            <Badge variant="destructive" className="border-red-300 bg-red-50 text-red-700">
+                            <Badge variant="destructive" className="border-red-300 bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300">
                               <XCircle className="mr-1 size-3" /> {t.timesheets.rejected}
                             </Badge>
                           )}

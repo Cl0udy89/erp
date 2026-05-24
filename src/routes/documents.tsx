@@ -423,7 +423,7 @@ function DetailPanel({ documentId, workspaceId, onClose }: DetailPanelProps) {
               {docTypeLabel(doc.doc_type)}
             </Badge>
             {doc.contains_personal_data && (
-              <Badge variant="secondary" className="bg-red-50 text-red-700 text-xs">
+              <Badge variant="secondary" className="bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300 text-xs">
                 GDPR sensitive
               </Badge>
             )}
@@ -764,7 +764,7 @@ function DocumentsPage() {
       {/* Page header */}
       <div className="border-b border-zinc-800 px-6 py-4 flex items-center justify-between shrink-0">
         <div>
-          <h1 className="text-[15px] font-semibold text-zinc-100 leading-none">{t.documents?.title ?? "Dokumenty"}</h1>
+          <h1 className="text-2xl font-bold">{t.documents?.title ?? "Dokumenty"}</h1>
         </div>
         <div className="flex items-center gap-2">
           <Button onClick={() => setUploadOpen(true)}>

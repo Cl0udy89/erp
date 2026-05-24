@@ -134,8 +134,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   async function login(email: string, password: string) {
-    const result = await loginFn({ data: { email, password } })
-    setUser(result.user)
+    await loginFn({ data: { email, password } })
+    // loginFn sets the auth cookie; getMeFn fetches the full user including permissions
+    const me = await getMeFn()
+    setUser(me ?? null)
   }
 
   async function logout() {

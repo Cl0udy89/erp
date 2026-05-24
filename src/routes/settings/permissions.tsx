@@ -157,7 +157,7 @@ function PermissionsPage() {
         <div className="overflow-x-auto rounded-lg border">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b bg-gray-50">
+              <tr className="border-b bg-muted/50">
                 <th className="px-4 py-3 text-left font-medium">Permission</th>
                 {ROLES.map((r) => (
                   <th key={r} className="px-4 py-3 text-center font-medium capitalize">
@@ -169,8 +169,8 @@ function PermissionsPage() {
             <tbody>
               {Object.entries(PERMISSION_GROUPS).map(([group, permissions]) => (
                 <>
-                  <tr key={`group-${group}`} className="bg-gray-50/50">
-                    <td colSpan={5} className="px-4 py-2 text-xs font-semibold uppercase tracking-wide text-gray-500">
+                  <tr key={`group-${group}`} className="bg-muted/30">
+                    <td colSpan={5} className="px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                       {group}
                     </td>
                   </tr>
@@ -189,8 +189,8 @@ function PermissionsPage() {
                               disabled={updateMutation.isPending}
                               className={`inline-flex size-6 items-center justify-center rounded transition-colors ${
                                 granted
-                                  ? "bg-green-500 text-white hover:bg-green-600"
-                                  : "bg-gray-200 text-gray-400 hover:bg-gray-300"
+                                  ? "bg-green-500 text-white hover:bg-green-600 dark:bg-green-700 dark:hover:bg-green-600"
+                                  : "bg-gray-200 text-gray-500 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-400 dark:hover:bg-gray-600"
                               }`}
                               title={granted ? "Revoke" : "Grant"}
                             >

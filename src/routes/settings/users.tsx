@@ -187,7 +187,7 @@ function UsersSettingsPage() {
         <div className="rounded-lg border">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b bg-gray-50">
+              <tr className="border-b bg-muted/50">
                 <th className="px-4 py-3 text-left font-medium">{t.common.name}</th>
                 <th className="px-4 py-3 text-left font-medium">{t.people.email}</th>
                 <th className="px-4 py-3 text-left font-medium">{t.settings.role}</th>

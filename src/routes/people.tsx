@@ -546,7 +546,7 @@ function PeoplePage() {
     <div className="flex flex-col">
       <div className="border-b border-zinc-800 px-6 py-4 flex items-center justify-between shrink-0">
         <div>
-          <h1 className="text-[15px] font-semibold text-zinc-100 leading-none">{t.people.title}</h1>
+          <h1 className="text-2xl font-bold">{t.people.title}</h1>
           <p className="text-xs text-zinc-500 mt-1">{t.people.subtitle}</p>
         </div>
       </div>
