@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.git/
+*.lock
+*.log
+coverage/
+.next/
+Clockify-API-Documentation.html
+public/

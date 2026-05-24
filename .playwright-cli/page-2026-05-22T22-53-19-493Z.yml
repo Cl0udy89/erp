@@ -1,0 +1,88 @@
+- generic:
+  - generic:
+    - complementary:
+      - generic:
+        - button [expanded]:
+          - generic: Wybierz obszar roboczy...
+          - img
+        - button:
+          - img
+      - navigation:
+        - generic:
+          - link:
+            - /url: /
+            - img
+            - generic: Pulpit
+          - link:
+            - /url: /time-entries
+            - img
+            - generic: Czas pracy
+          - link:
+            - /url: /timesheets
+            - img
+            - generic: Zatwierdzenia
+        - generic:
+          - generic: SPRZEDAŻ
+          - link:
+            - /url: /projects
+            - img
+            - generic: Projekty
+          - link:
+            - /url: /financials
+            - img
+            - generic: Finanse
+        - generic:
+          - generic: ZASOBY
+          - link:
+            - /url: /people
+            - img
+            - generic: Ludzie
+          - link:
+            - /url: /documents
+            - img
+            - generic: Dokumenty
+          - link:
+            - /url: /warehouse
+            - img
+            - generic: Magazyn
+        - generic:
+          - generic: FINANSE
+          - link:
+            - /url: /accounting
+            - img
+            - generic: Rozliczenia
+        - generic:
+          - generic: SYSTEM
+          - link:
+            - /url: /audit
+            - img
+            - generic: Dziennik audytu
+          - link:
+            - /url: /settings/users
+            - img
+            - generic: Ustawienia
+      - generic:
+        - button:
+          - img
+      - generic:
+        - button: PL
+        - generic: /
+        - button: EN
+      - generic:
+        - generic:
+          - generic: A
+          - generic:
+            - paragraph: Admin
+            - paragraph: admin@sparksome.com
+          - button:
+            - img
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=2]: Wybierz obszar roboczy
+            - paragraph: Wybierz obszar roboczy z paska bocznego, aby wyświetlić pulpit.
+  - region "Notifications alt+T"
+  - button [ref=e126] [cursor=pointer]:
+    - img [ref=e127]
+  - menu "Wybierz obszar roboczy..." [active] [ref=e128]

@@ -1,0 +1,265 @@
+- generic [ref=e1]:
+  - generic [ref=e21]:
+    - complementary [ref=e22]:
+      - button "W" [ref=e505]
+      - navigation [ref=e34]:
+        - generic [ref=e35]:
+          - link [ref=e506] [cursor=pointer]:
+            - /url: /?workspaceId=workspace_default
+            - img [ref=e507]
+          - link [ref=e512] [cursor=pointer]:
+            - /url: /time-entries?workspaceId=workspace_default
+            - img [ref=e513]
+          - link [ref=e516] [cursor=pointer]:
+            - /url: /timesheets?workspaceId=workspace_default
+            - img [ref=e517]
+        - generic [ref=e53]:
+          - link [ref=e520] [cursor=pointer]:
+            - /url: /projects?workspaceId=workspace_default
+            - img [ref=e521]
+          - link [ref=e523] [cursor=pointer]:
+            - /url: /financials?workspaceId=workspace_default
+            - img [ref=e524]
+        - generic [ref=e64]:
+          - link [ref=e527] [cursor=pointer]:
+            - /url: /people?workspaceId=workspace_default
+            - img [ref=e528]
+          - link [ref=e533] [cursor=pointer]:
+            - /url: /documents?workspaceId=workspace_default
+            - img [ref=e534]
+          - link [ref=e536] [cursor=pointer]:
+            - /url: /warehouse?workspaceId=workspace_default
+            - img [ref=e537]
+        - link [ref=e541] [cursor=pointer]:
+          - /url: /accounting?workspaceId=workspace_default
+          - img [ref=e542]
+        - generic [ref=e89]:
+          - link [ref=e544] [cursor=pointer]:
+            - /url: /audit?workspaceId=workspace_default
+            - img [ref=e545]
+          - link [ref=e547] [cursor=pointer]:
+            - /url: /settings/users?workspaceId=workspace_default
+            - img [ref=e548]
+      - button [active] [ref=e101]:
+        - img [ref=e551]
+      - generic [ref=e109]:
+        - generic [ref=e110]: A
+        - button "Wyloguj" [ref=e553]
+    - main [ref=e118]:
+      - button "Uruchom stoper" [ref=e121]:
+        - img
+        - text: Uruchom stoper
+      - generic [ref=e123]:
+        - generic [ref=e125]:
+          - heading "Pulpit" [level=1] [ref=e126]
+          - paragraph [ref=e127]: Przegląd obszaru roboczego Clockify
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - link "Godziny (ten miesiąc) 0h 2026-05" [ref=e130] [cursor=pointer]:
+              - /url: /time-entries?workspaceId=workspace_default
+              - generic [ref=e131]:
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Godziny (ten miesiąc)
+                  - img [ref=e135]
+                - generic [ref=e138]:
+                  - generic [ref=e139]: 0h
+                  - paragraph [ref=e140]: 2026-05
+            - link "Przychód (ten miesiąc) 0,00 zł 2026-05" [ref=e280] [cursor=pointer]:
+              - /url: /accounting?workspaceId=workspace_default
+              - generic [ref=e142]:
+                - generic [ref=e144]:
+                  - generic [ref=e145]: Przychód (ten miesiąc)
+                  - img [ref=e146]
+                - generic [ref=e149]:
+                  - generic [ref=e281]: 0,00 zł
+                  - paragraph [ref=e151]: 2026-05
+            - link "Oczekujące timesheety 0 Czekają na zatwierdzenie" [ref=e282] [cursor=pointer]:
+              - /url: /timesheets?workspaceId=workspace_default
+              - generic [ref=e153]:
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Oczekujące timesheety
+                  - img [ref=e157]
+                - generic [ref=e160]:
+                  - generic [ref=e283]: "0"
+                  - paragraph [ref=e162]: Czekają na zatwierdzenie
+            - link "Błędy synchronizacji 0 Dokumenty bez synchronizacji" [ref=e284] [cursor=pointer]:
+              - /url: /settings/storage?workspaceId=workspace_default
+              - generic [ref=e164]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]: Błędy synchronizacji
+                  - img [ref=e168]
+                - generic [ref=e172]:
+                  - generic [ref=e285]: "0"
+                  - paragraph [ref=e174]: Dokumenty bez synchronizacji
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: Aktywny timer
+                - img [ref=e180]
+              - generic [ref=e184]:
+                - paragraph [ref=e185]: Brak aktywnego timera
+                - link "Zacznij timer" [ref=e186] [cursor=pointer]:
+                  - /url: /time-entries?workspaceId=workspace_default
+                  - button "Zacznij timer" [ref=e187]:
+                    - img
+                    - text: Zacznij timer
+            - generic [ref=e188]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: Moje projekty
+                - img [ref=e192]
+              - paragraph [ref=e195]: Nie znaleziono projektów
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - generic [ref=e199]: Ostatnia aktywność (Audit)
+              - paragraph [ref=e286]: Brak wpisów w dzienniku audytu
+            - generic [ref=e207]:
+              - generic [ref=e209]: Najpopularniejsze projekty (godziny)
+              - paragraph [ref=e211]: Nie znaleziono projektów
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - heading "Przepływ finansowy" [level=2] [ref=e215]
+                - paragraph [ref=e216]: Przegląd obszaru roboczego Clockify
+              - generic [ref=e217]:
+                - generic [ref=e218]: Rok
+                - spinbutton [ref=e219]: "2026"
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e223]: Przychód
+                - generic [ref=e224]: 0,00 zł
+              - generic [ref=e226]:
+                - generic [ref=e228]: Koszt
+                - generic [ref=e229]: 0,00 zł
+              - generic [ref=e231]:
+                - generic [ref=e233]: Dochód
+                - generic [ref=e234]: 0,00 zł
+              - generic [ref=e236]:
+                - generic [ref=e238]: Zysk
+                - generic [ref=e239]: 0,00 zł
+            - generic [ref=e241]:
+              - generic [ref=e243]: Przegląd miesięczny
+              - generic [ref=e288]:
+                - list [ref=e290]:
+                  - listitem [ref=e291]:
+                    - img "Dochód legend icon" [ref=e292]
+                    - text: Dochód
+                  - listitem [ref=e294]:
+                    - img "Koszt legend icon" [ref=e295]
+                    - text: Koszt
+                  - listitem [ref=e297]:
+                    - img "Przychód legend icon" [ref=e298]
+                    - text: Przychód
+                - application [ref=e300]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]:
+                      - generic [ref=e555]: 2026-01
+                      - generic [ref=e557]: 2026-02
+                      - generic [ref=e559]: 2026-03
+                      - generic [ref=e561]: 2026-04
+                      - generic [ref=e563]: 2026-05
+                      - generic [ref=e565]: 2026-06
+                      - generic [ref=e567]: 2026-07
+                      - generic [ref=e569]: 2026-08
+                      - generic [ref=e571]: 2026-09
+                      - generic [ref=e573]: 2026-10
+                      - generic [ref=e575]: 2026-11
+                      - generic [ref=e577]: 2026-12
+                    - generic [ref=e338]:
+                      - generic [ref=e340]: 0,00 zł
+                      - generic [ref=e342]: 1,00 zł
+                      - generic [ref=e344]: 2,00 zł
+                      - generic [ref=e346]: 3,00 zł
+                      - generic [ref=e348]: 4,00 zł
+            - generic [ref=e246]:
+              - generic [ref=e247]:
+                - generic [ref=e249]: Przychód vs Koszt
+                - generic [ref=e350]:
+                  - list [ref=e352]:
+                    - listitem [ref=e353]:
+                      - img "Koszt legend icon" [ref=e354]
+                      - text: Koszt
+                    - listitem [ref=e356]:
+                      - img "Przychód legend icon" [ref=e357]
+                      - text: Przychód
+                  - application [ref=e359]:
+                    - generic [ref=e371]:
+                      - generic [ref=e372]:
+                        - generic [ref=e579]: 2026-02
+                        - generic [ref=e581]: 2026-04
+                        - generic [ref=e583]: 2026-06
+                        - generic [ref=e585]: 2026-08
+                        - generic [ref=e587]: 2026-10
+                        - generic [ref=e589]: 2026-12
+                      - generic [ref=e385]:
+                        - generic [ref=e387]: 0,00 zł
+                        - generic [ref=e389]: 1,00 zł
+                        - generic [ref=e391]: 2,00 zł
+                        - generic [ref=e393]: 3,00 zł
+                        - generic [ref=e395]: 4,00 zł
+              - generic [ref=e252]:
+                - generic [ref=e254]: Dochód w czasie
+                - generic [ref=e397]:
+                  - list [ref=e399]:
+                    - listitem [ref=e400]:
+                      - img "Dochód legend icon" [ref=e401]
+                      - text: Dochód
+                    - listitem [ref=e403]:
+                      - img "Dochód legend icon" [ref=e404]
+                      - text: Dochód
+                  - application [ref=e406]:
+                    - generic [ref=e418]:
+                      - generic [ref=e419]:
+                        - generic [ref=e591]: 2026-02
+                        - generic [ref=e593]: 2026-04
+                        - generic [ref=e595]: 2026-06
+                        - generic [ref=e597]: 2026-08
+                        - generic [ref=e599]: 2026-10
+                        - generic [ref=e601]: 2026-12
+                      - generic [ref=e432]:
+                        - generic [ref=e434]: 0,00 zł
+                        - generic [ref=e436]: 1,00 zł
+                        - generic [ref=e438]: 2,00 zł
+                        - generic [ref=e440]: 3,00 zł
+                        - generic [ref=e442]: 4,00 zł
+            - generic [ref=e257]:
+              - generic [ref=e259]: Zysk / Strata
+              - generic [ref=e444]:
+                - list [ref=e446]:
+                  - listitem [ref=e447]:
+                    - img "Strata legend icon" [ref=e448]
+                    - text: Strata
+                  - listitem [ref=e450]:
+                    - img "Zysk legend icon" [ref=e451]
+                    - text: Zysk
+                - application [ref=e453]:
+                  - generic [ref=e465]:
+                    - generic [ref=e466]:
+                      - generic [ref=e603]: 2026-01
+                      - generic [ref=e605]: 2026-02
+                      - generic [ref=e607]: 2026-03
+                      - generic [ref=e609]: 2026-04
+                      - generic [ref=e611]: 2026-05
+                      - generic [ref=e613]: 2026-06
+                      - generic [ref=e615]: 2026-07
+                      - generic [ref=e617]: 2026-08
+                      - generic [ref=e619]: 2026-09
+                      - generic [ref=e621]: 2026-10
+                      - generic [ref=e623]: 2026-11
+                      - generic [ref=e625]: 2026-12
+                    - generic [ref=e491]:
+                      - generic [ref=e493]: 0,00 zł
+                      - generic [ref=e495]: 1,00 zł
+                      - generic [ref=e497]: 2,00 zł
+                      - generic [ref=e499]: 3,00 zł
+                      - generic [ref=e501]: 4,00 zł
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - generic [ref=e265]: Top 5 najbardziej rentownych projektów
+                - paragraph [ref=e502]: Nie znaleziono projektów
+              - generic [ref=e271]:
+                - generic [ref=e273]: Top 5 najmniej rentownych projektów
+                - paragraph [ref=e503]: Nie znaleziono projektów
+  - region "Notifications alt+T"
+  - button "Open TanStack Devtools" [ref=e19] [cursor=pointer]:
+    - img "TanStack Devtools" [ref=e20]
+  - generic [ref=e504]: 0,00 zł
